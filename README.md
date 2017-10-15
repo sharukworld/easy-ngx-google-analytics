@@ -1,0 +1,1 @@
+# easy-ngx-google-analytics
