@@ -1,5 +1,5 @@
 # easy-ngx-google-analytics
-https://img.shields.io/travis/USER/REPO.svg
+[![Build Status](https://travis-ci.org/sharukworld/easy-ngx-google-analytics.svg?branch=master)](https://travis-ci.org/sharukworld/easy-ngx-google-analytics)
 
 > Easy Ngx Google Analytics Angular Module
 
