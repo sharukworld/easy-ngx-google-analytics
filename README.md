@@ -4,9 +4,27 @@
 > Easy Ngx Google Analytics Angular Module
 
 ## Installation
-> npm install easy-ngx-google-analytics --save
-> add google analytics code snippet
 
+```
+npm install easy-ngx-google-analytics --save
+```
+
+And
+
+```
+add google analytics code snippet
+```
+
+```
+import { EasyNgxGoogleAnalyticsModule } from 'easy-ngx-google-analytics'; into main module
+```
+And EasyNgxGoogleAnalyticsModule to the main module
+
+```
+  imports: [
+    EasyNgxGoogleAnalyticsModule
+  ]
+```
 ## TODO
 > routes to ignore
 
