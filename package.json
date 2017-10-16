@@ -1,0 +1,49 @@
+{
+  "name": "easy-ngx-google-analytics",
+  "version": "0.0.2",
+  "description": "Easy Ngx Google Analytics Angular Module",
+  "main": "dist/bundles/easy-ngx-google-analytics.umd.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.metadata.json dist/index.js dist/index.js.map dist/LICENSE dist/README.md",
+    "bundling": "rollup -c",
+    "minify": "uglifyjs dist/bundles/easy-ngx-google-analytics.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/easy-ngx-google-analytics.umd.min.js",
+    "copy": "copyfiles LICENSE README.md dist",
+    "build": "npm run cleanup && ngc && npm run bundling && npm run minify && npm run copy",
+    "publish-to-npm": "cd dist && npm publish"
+  },
+  "keywords": [
+    "angular",
+    "ngx"
+  ],
+  "author": {
+    "name": "Sharuk Ahmed Mazumder",
+    "email": "sharukrules@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sharukworld/easy-ngx-google-analytics"
+  },
+  "homepage": "https://github.com/sharukworld/easy-ngx-google-analytics",
+  "bugs": {
+    "url": "https://github.com/sharukworld/easy-ngx-google-analytics/issues"
+  },
+  "dependencies": {
+    "@angular/core": "^4.4.5",
+    "rxjs": "^5.4.2",
+    "zone.js": "^0.8.14",
+    "@angular/router": "^4.2.4", 
+    "@angular/common": "4.4.5",
+    "@angular/platform-browser": "4.4.5"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^4.2.4",
+    "@angular/compiler-cli": "^4.2.4",
+    "copyfiles": "^1.0.0",
+    "rimraf": "^2.5.4",
+    "rollup": "^0.37.0",
+    "typescript": "^2.5.3",
+    "uglify-js": "^2.7.5"
+  }
+}
