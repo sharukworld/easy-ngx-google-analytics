@@ -1,0 +1,9 @@
+
+node_modules/@angular/common/@angular/common/http.js
+*.map
+dist/bundles/easy-ngx-google-analytics.umd.js
+dist
+node_modules
+index.ngsummary.json
+*.json
+*.json

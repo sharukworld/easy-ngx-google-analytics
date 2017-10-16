@@ -3,9 +3,18 @@
 
 > Easy Ngx Google Analytics Angular Module
 
+## Installation
+> npm install easy-ngx-google-analytics --save
+> add google analytics code snippet
+
+## TODO
+> routes to ignore
+
+
+
+
 ## License
 
 MIT
 
-## Please wait for full release.
-## On development
+
