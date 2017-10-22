@@ -3,15 +3,13 @@ import { Component } from '@angular/core';
 import { EasyNgxGoogleAnalyticsService } from './easy-ngx-google-analytics.service';
 import {Router, NavigationEnd} from '@angular/router';
 import 'rxjs/add/operator/distinctUntilChanged';
+import 'rxjs/add/operator/filter';
 
 declare var gtag:any;
 
 @Component({
   selector: 'easy-ngx-google-analytics',
-  template: `
-    <h1>EasyNgxGoogleAnalyticsComponent</h1>
-    <h2>{{message}}</h2>
-  `
+  template: ''
 })
 export class EasyNgxGoogleAnalyticsComponent {
 
@@ -25,7 +23,21 @@ export class EasyNgxGoogleAnalyticsComponent {
           return previous.url === current.url;
       }
       return true;
-  }).subscribe((x: any) => {
+  }).filter(x => {
+    if(config.routesToIgnore == null) {
+      return true;
+    }
+    else{
+      for(let routesIndex = 0;routesIndex < config.routesToIgnore.length; routesIndex++ ){
+        let routeIgnore : boolean = config.routesToIgnore[routesIndex].test(x.url)
+        if(routeIgnore) {
+          return false;
+        }
+      }
+      return true;
+    }
+  })
+    .subscribe((x: any) => { 
     gtag('config', config.gaTrackingId, {'page_path': x.url});
   });
   }

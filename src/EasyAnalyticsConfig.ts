@@ -1,4 +1,4 @@
 export class EasyAnalyticsConfig {
-    gaTrackingId = '';
-    routesToIgnonre? : string[] = [];
+    gaTrackingId : string = '';
+    routesToIgnore? : RegExp[] = [];
 }
