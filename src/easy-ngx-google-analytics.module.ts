@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
+import { EasyAnalyticsConfig } from './EasyAnalyticsConfig';
+import { ModuleWithProviders, NgModule } from '@angular/core';
 
 import { EasyNgxGoogleAnalyticsService } from './easy-ngx-google-analytics.service';
 import { EasyNgxGoogleAnalyticsComponent } from './easy-ngx-google-analytics.component';
 
 
 export function asyncLocalStorageFactory() {
-  return new EasyNgxGoogleAnalyticsService();
+  return new EasyNgxGoogleAnalyticsService({});
 }
 
 @NgModule({
@@ -16,11 +17,16 @@ export function asyncLocalStorageFactory() {
     EasyNgxGoogleAnalyticsComponent,
   ],
   providers: [
-    {
-      provide: EasyNgxGoogleAnalyticsService,
-      useFactory: asyncLocalStorageFactory
-    }
+   EasyNgxGoogleAnalyticsService
   ]
 })
 export class EasyNgxGoogleAnalyticsModule {
+  static forRoot(config: EasyAnalyticsConfig): ModuleWithProviders {
+    return {
+      ngModule: EasyNgxGoogleAnalyticsModule,
+      providers: [
+        {provide: EasyAnalyticsConfig, useValue: config }
+      ]
+    };
+  }
 }

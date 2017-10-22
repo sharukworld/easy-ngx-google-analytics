@@ -20,6 +20,7 @@ export class EasyNgxGoogleAnalyticsComponent {
     private service: EasyNgxGoogleAnalyticsService
     , private router: Router
   ) {
+    let config = this.service.getConfig();
     router.events.distinctUntilChanged((previous: any, current: any) => {
       if(current instanceof NavigationEnd) {
           return previous.url === current.url;

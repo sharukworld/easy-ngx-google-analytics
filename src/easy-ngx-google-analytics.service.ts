@@ -1,14 +1,13 @@
-import { Injectable } from '@angular/core';
+import { EasyAnalyticsConfig } from './EasyAnalyticsConfig';
+import { Optional, Injectable } from '@angular/core';
 
 @Injectable()
 export class EasyNgxGoogleAnalyticsService {
 
-  constructor(
-  ) {
-    console.log('EasyNgxGoogleAnalyticsService constructor')
+  constructor(@Optional() private config: EasyAnalyticsConfig) {
   }
 
-  getMessage() {
-    return 'Hello from the EasyNgxGoogleAnalyticsService!'
+  getConfig() {
+    return this.config;
   }
 }
