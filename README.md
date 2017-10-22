@@ -1,6 +1,6 @@
 # easy-ngx-google-analytics
 [![Build Status](https://travis-ci.org/sharukworld/easy-ngx-google-analytics.svg?branch=master)](https://travis-ci.org/sharukworld/easy-ngx-google-analytics)
-![Li](https://img.shields.io/npm/l/easy-ngx-google-analytics.svg)
+![Li](https://img.shields.io/npm/l/easy-ngx-google-analytics.svg) [![Join the chat at https://gitter.im/easy-ngx-google-analytics/Lobby](https://badges.gitter.im/easy-ngx-google-analytics/Lobby.svg)](https://gitter.im/easy-ngx-google-analytics/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 
 > Easy Ngx Google Analytics Angular Module
@@ -16,16 +16,16 @@ npm install easy-ngx-google-analytics --save
 ```
 
 install gtag.js by copying the following snippet and pasting it immediately after the head tag on index.html. Replace GA_TRACKING_ID with the tracking ID of the Google Analytics property you want to send data to
-<pre>
+```
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=<b>GA_TRACKING_ID</b>"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=GA_TRACKING_ID"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments)};
   gtag('js', new Date());
-  gtag('config', <b>'GA_TRACKING_ID'</b>, { 'send_page_view': false });
+  gtag('config', 'GA_TRACKING_ID', { 'send_page_view': false });
 </script>
-  </pre> 
+ ```
   
 Add below code to your app module.
 ```
