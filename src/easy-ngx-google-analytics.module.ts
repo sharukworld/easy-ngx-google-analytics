@@ -5,10 +5,6 @@ import { EasyNgxGoogleAnalyticsService } from './easy-ngx-google-analytics.servi
 import { EasyNgxGoogleAnalyticsComponent } from './easy-ngx-google-analytics.component';
 
 
-export function asyncLocalStorageFactory() {
-  return new EasyNgxGoogleAnalyticsService({});
-}
-
 @NgModule({
   declarations: [
     EasyNgxGoogleAnalyticsComponent,

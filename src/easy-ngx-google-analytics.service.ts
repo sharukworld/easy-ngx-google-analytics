@@ -7,7 +7,7 @@ export class EasyNgxGoogleAnalyticsService {
   constructor(@Optional() private config: EasyAnalyticsConfig) {
   }
 
-  getConfig() {
+  getConfig() : EasyAnalyticsConfig {
     return this.config;
   }
 }

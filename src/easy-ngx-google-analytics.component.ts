@@ -1,9 +1,10 @@
+import { EasyAnalyticsConfig } from './EasyAnalyticsConfig';
 import { Component } from '@angular/core';
 import { EasyNgxGoogleAnalyticsService } from './easy-ngx-google-analytics.service';
 import {Router, NavigationEnd} from '@angular/router';
 import 'rxjs/add/operator/distinctUntilChanged';
 
-declare var ga:any;
+declare var gtag:any;
 
 @Component({
   selector: 'easy-ngx-google-analytics',
@@ -14,21 +15,18 @@ declare var ga:any;
 })
 export class EasyNgxGoogleAnalyticsComponent {
 
-  public message: string;
-
   constructor(
     private service: EasyNgxGoogleAnalyticsService
     , private router: Router
   ) {
-    let config = this.service.getConfig();
+    let config :EasyAnalyticsConfig  = this.service.getConfig();
     router.events.distinctUntilChanged((previous: any, current: any) => {
       if(current instanceof NavigationEnd) {
           return previous.url === current.url;
       }
       return true;
   }).subscribe((x: any) => {
-    ga('set', 'page',  x.url);
-    ga('send', 'pageview');
+    gtag('config', config.gaTrackingId, {'page_path': x.url});
   });
   }
 
