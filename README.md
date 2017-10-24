@@ -1,4 +1,6 @@
 # easy-ngx-google-analytics
+
+[![Join the chat at https://gitter.im/easy-ngx-google-analytics/Lobby](https://badges.gitter.im/easy-ngx-google-analytics/Lobby.svg)](https://gitter.im/easy-ngx-google-analytics/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/sharukworld/easy-ngx-google-analytics.svg?branch=master)](https://travis-ci.org/sharukworld/easy-ngx-google-analytics)
 ![Li](https://img.shields.io/npm/l/easy-ngx-google-analytics.svg) [![Join the chat at https://gitter.im/easy-ngx-google-analytics/Lobby](https://badges.gitter.im/easy-ngx-google-analytics/Lobby.svg)](https://gitter.im/easy-ngx-google-analytics/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
