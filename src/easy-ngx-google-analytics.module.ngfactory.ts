@@ -8,14 +8,10 @@
 
 import * as i0 from '@angular/core';
 import * as i1 from './easy-ngx-google-analytics.module';
-import * as i2 from './easy-ngx-google-analytics.service';
-import * as i3 from './easy-analytics.config';
 export const EasyNgxGoogleAnalyticsModuleNgFactory:i0.NgModuleFactory<i1.EasyNgxGoogleAnalyticsModule> = i0.ɵcmf(i1.EasyNgxGoogleAnalyticsModule,
     ([] as any[]),(_l:any) => {
       return i0.ɵmod([i0.ɵmpd(512,i0.ComponentFactoryResolver,i0.ɵCodegenComponentFactoryResolver,
-          [[8,([] as any[])],[3,i0.ComponentFactoryResolver],i0.NgModuleRef]),i0.ɵmpd(4608,
-          i2.EasyNgxGoogleAnalyticsService,i2.EasyNgxGoogleAnalyticsService,[[2,i3.EasyAnalyticsConfig]]),
-          i0.ɵmpd(512,i1.EasyNgxGoogleAnalyticsModule,i1.EasyNgxGoogleAnalyticsModule,
-              ([] as any[]))]);
+          [[8,([] as any[])],[3,i0.ComponentFactoryResolver],i0.NgModuleRef]),i0.ɵmpd(512,
+          i1.EasyNgxGoogleAnalyticsModule,i1.EasyNgxGoogleAnalyticsModule,([] as any[]))]);
     });
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvRG9jdW1lbnRzL0dpdEh1Yi9jYXN0L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3Mvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MubW9kdWxlLm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvRG9jdW1lbnRzL0dpdEh1Yi9jYXN0L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3Mvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MubW9kdWxlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIiAiXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvRG9jdW1lbnRzL0dpdEh1Yi9jYXN0L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3Mvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MubW9kdWxlLm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvRG9jdW1lbnRzL0dpdEh1Yi9jYXN0L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3Mvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MubW9kdWxlLnRzIl0sInNvdXJjZXNDb250ZW50IjpbIiAiXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7In0=
