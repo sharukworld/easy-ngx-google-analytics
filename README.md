@@ -34,7 +34,7 @@ import { EasyNgxGoogleAnalyticsModule, EasyAnalyticsConfig } from 'easy-ngx-goog
 
 Create a config variable, add your  GA_TRACKING_ID as shown below.
 ```
-const easyAnalyticsConfig: EasyAnalyticsConfig = {
+const easyAnalyticsConfig = {
   gaTrackingId : 'UA-XXXXXXXXX-X'
 };
 ```
@@ -44,7 +44,7 @@ If you have any routes you need to ignore, update the easyAnalyticsConfig as sho
 Here we will add /loading to ignore list
 
 ```
-const easyAnalyticsConfig: EasyAnalyticsConfig = {
+const easyAnalyticsConfig = {
   gaTrackingId : 'UA-XXXXXXXXX-X',
   routesToIgnore : [/\/loading$/]
 };

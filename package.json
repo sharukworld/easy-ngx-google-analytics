@@ -1,6 +1,6 @@
 {
   "name": "easy-ngx-google-analytics",
-  "version": "0.0.2",
+  "version": "0.1.3",
   "description": "Easy Ngx Google Analytics Angular Module",
   "main": "dist/bundles/easy-ngx-google-analytics.umd.js",
   "module": "dist/index.js",
@@ -8,7 +8,7 @@
     "cleanup": "rimraf dist/bundles dist/src dist/index.d.ts dist/index.metadata.json dist/index.js dist/index.js.map dist/LICENSE dist/README.md",
     "bundling": "rollup -c",
     "minify": "uglifyjs dist/bundles/easy-ngx-google-analytics.umd.js --screw-ie8 --compress --mangle --comments --output dist/bundles/easy-ngx-google-analytics.umd.min.js",
-    "copy": "copyfiles LICENSE README.md dist",
+    "copy": "copyfiles LICENSE README.md package.json dist",
     "build": "npm run cleanup && ngc && npm run bundling && npm run minify && npm run copy",
     "publish-to-npm": "cd dist && npm publish"
   },
@@ -22,7 +22,9 @@
      "google analytics",
      "page tracking", 
      "event tracking",
-     "simple"
+     "simple",
+     "gtag.js",
+     "gtag"
   ],
   "author": {
     "name": "Sharuk Ahmed Mazumder",

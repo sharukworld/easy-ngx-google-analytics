@@ -1,4 +1,4 @@
-import { EasyAnalyticsConfig } from './EasyAnalyticsConfig';
+import { EasyAnalyticsConfig } from './easy-analytics.config';
 import { ModuleWithProviders, NgModule } from '@angular/core';
 
 import { EasyNgxGoogleAnalyticsService } from './easy-ngx-google-analytics.service';

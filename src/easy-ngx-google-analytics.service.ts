@@ -1,4 +1,5 @@
-import { EasyAnalyticsConfig } from './EasyAnalyticsConfig';
+import { EasyAnalyticsConfig } from './easy-analytics.config';
+
 import { Optional, Injectable } from '@angular/core';
 
 @Injectable()

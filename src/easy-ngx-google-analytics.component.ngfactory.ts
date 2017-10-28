@@ -14,18 +14,7 @@ const styles_EasyNgxGoogleAnalyticsComponent:any[] = ([] as any[]);
 export const RenderType_EasyNgxGoogleAnalyticsComponent:i0.RendererType2 = i0.ɵcrt({encapsulation:2,
     styles:styles_EasyNgxGoogleAnalyticsComponent,data:{}});
 export function View_EasyNgxGoogleAnalyticsComponent_0(_l:any):i0.ɵViewDefinition {
-  return i0.ɵvid(0,[(_l()(),i0.ɵted(-1,(null as any),['\n    '])),(_l()(),i0.ɵeld(1,
-      0,(null as any),(null as any),1,'h1',([] as any[]),(null as any),(null as any),
-      (null as any),(null as any),(null as any))),(_l()(),i0.ɵted(-1,(null as any),
-      ['EasyNgxGoogleAnalyticsComponent'])),(_l()(),i0.ɵted(-1,(null as any),['\n    '])),
-      (_l()(),i0.ɵeld(4,0,(null as any),(null as any),1,'h2',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i0.ɵted(5,
-          (null as any),['',''])),(_l()(),i0.ɵted(-1,(null as any),['\n  ']))],(null as any),
-      (_ck,_v) => {
-        var _co:i1.EasyNgxGoogleAnalyticsComponent = _v.component;
-        const currVal_0:any = _co.message;
-        _ck(_v,5,0,currVal_0);
-      });
+  return i0.ɵvid(0,([] as any[]),(null as any),(null as any));
 }
 export function View_EasyNgxGoogleAnalyticsComponent_Host_0(_l:any):i0.ɵViewDefinition {
   return i0.ɵvid(0,[(_l()(),i0.ɵeld(0,0,(null as any),(null as any),1,'easy-ngx-google-analytics',
@@ -36,5 +25,5 @@ export function View_EasyNgxGoogleAnalyticsComponent_Host_0(_l:any):i0.ɵViewDef
 }
 export const EasyNgxGoogleAnalyticsComponentNgFactory:i0.ComponentFactory<i1.EasyNgxGoogleAnalyticsComponent> = i0.ɵccf('easy-ngx-google-analytics',
     i1.EasyNgxGoogleAnalyticsComponent,View_EasyNgxGoogleAnalyticsComponent_Host_0,
-    {},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvbnBtLW1vZHVsZXMvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvbnBtLW1vZHVsZXMvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvc2hhcnVrYWhtZWRtYXp1bWRlci9ucG0tbW9kdWxlcy9zcmMvZWFzeS1uZ3gtZ29vZ2xlLWFuYWx5dGljcy5jb21wb25lbnQudHMuRWFzeU5neEdvb2dsZUFuYWx5dGljc0NvbXBvbmVudC5odG1sIiwibmc6Ly8vVXNlcnMvc2hhcnVrYWhtZWRtYXp1bWRlci9ucG0tbW9kdWxlcy9zcmMvZWFzeS1uZ3gtZ29vZ2xlLWFuYWx5dGljcy5jb21wb25lbnQudHMuRWFzeU5neEdvb2dsZUFuYWx5dGljc0NvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIlxuICAgIDxoMT5FYXN5Tmd4R29vZ2xlQW5hbHl0aWNzQ29tcG9uZW50PC9oMT5cbiAgICA8aDI+e3ttZXNzYWdlfX08L2gyPlxuICAiLCI8ZWFzeS1uZ3gtZ29vZ2xlLWFuYWx5dGljcz48L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3M+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQSw4Q0FDSTtNQUFBO01BQUEsNENBQUk7TUFBQSxzQ0FBb0M7TUFDeEM7VUFBQSwwREFBSTtVQUFBLHdCQUFnQjs7O1FBQWhCO1FBQUE7Ozs7b0JDRlI7TUFBQTtnREFBQSxVQUFBO3lDQUFBO01BQUE7Ozs7In0=
+    {config:'config'},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvRG9jdW1lbnRzL0dpdEh1Yi9jYXN0L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3Mvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL1VzZXJzL3NoYXJ1a2FobWVkbWF6dW1kZXIvRG9jdW1lbnRzL0dpdEh1Yi9jYXN0L2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3Mvc3JjL2Vhc3ktbmd4LWdvb2dsZS1hbmFseXRpY3MuY29tcG9uZW50LnRzIiwibmc6Ly8vVXNlcnMvc2hhcnVrYWhtZWRtYXp1bWRlci9Eb2N1bWVudHMvR2l0SHViL2Nhc3QvZWFzeS1uZ3gtZ29vZ2xlLWFuYWx5dGljcy9zcmMvZWFzeS1uZ3gtZ29vZ2xlLWFuYWx5dGljcy5jb21wb25lbnQudHMuRWFzeU5neEdvb2dsZUFuYWx5dGljc0NvbXBvbmVudF9Ib3N0Lmh0bWwiXSwic291cmNlc0NvbnRlbnQiOlsiICIsIjxlYXN5LW5neC1nb29nbGUtYW5hbHl0aWNzPjwvZWFzeS1uZ3gtZ29vZ2xlLWFuYWx5dGljcz4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7Z0RBQUEsVUFBQTt5Q0FBQTtNQUFBOzs7OyJ9
