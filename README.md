@@ -87,12 +87,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'app';
   easyAnalyticsConfig: EasyAnalyticsConfig = {
+  
     // required field, same as the GA_TRACKING_ID
     gaTrackingId : 'UA-XXXXXXXXX-X',
     // If you have any routes you need to ignore, update the config
     // you can add a regex array
     // Here we will add /loading to ignore list
     routesToIgnore : [/\/loading$/],
+    
     // you can pass a function/arrow function to remove or add information from the url
     // sometime, we might need to remove the id, or authenticating keys.
     urlTrimmerFunction: (originalUrl: string) => {
@@ -108,7 +110,15 @@ Adding events and custom trigger directive.
 ## Support
 Chat with us on  [![Join the chat at https://gitter.im/easy-ngx-google-analytics/Lobby](https://badges.gitter.im/easy-ngx-google-analytics/Lobby.svg)](https://gitter.im/easy-ngx-google-analytics/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-
+## SystemJs
+If you use SystemJS to load your files, you might have to update your config with this if you don't use `defaultJSExtensions: true`:
+```js
+System.config({
+    packages: {
+        "/easy-ngx-google-analytics": {"defaultExtension": "js"}
+    }
+});
+```
 
 
 ## License
