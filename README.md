@@ -9,13 +9,15 @@
 
 ## prerequisite
 [Generates a google analytics tracking ID](https://support.google.com/analytics/answer/1042508)
+
+> It might take up to a day for Real-Time data to show for a new google analytics tracking ID
 ## Installation
 
 ```shell
 npm install easy-ngx-google-analytics --save
 ```
 
-install gtag.js by copying the following snippet and pasting it immediately after the head tag on index.html. Replace GA_TRACKING_ID with the tracking ID of the Google Analytics property you want to send data to.
+install gtag.js by copying the following snippet and pasting it immediately after the head tag on index.html. Replace **GA_TRACKING_ID** with the tracking ID of the Google Analytics property you want to send data to.
 ```html
 <!doctype html>
 <html lang="en">
@@ -40,7 +42,7 @@ install gtag.js by copying the following snippet and pasting it immediately afte
 ```
   
 Add below code to your app module.
-Next we import the EasyNgxGoogleAnalyticsModule to app module
+Next we import the **EasyNgxGoogleAnalyticsModule** to app module
 
 ```ts
 import { RouterModule, Routes } from '@angular/router';
