@@ -75,7 +75,8 @@ export class AppModule { }
 
 ```
 Finally, we add the code below to inside our app.component.ts(our initial template).
-```import { EasyAnalyticsConfig } from 'easy-ngx-google-analytics';
+```ts
+import { EasyAnalyticsConfig } from 'easy-ngx-google-analytics';
 import { Component } from '@angular/core';
 
 @Component({
